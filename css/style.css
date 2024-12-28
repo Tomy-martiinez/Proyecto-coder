@@ -1,0 +1,279 @@
+/*----------GENERAL------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+/*-----------------------INDEX ----------------------- */
+.color-nav{
+    background-color:#EAE7E2;
+}
+
+.boton-decoracion {
+    background-color: #EAE7E2;
+    border: solid 1px #040078;
+    color: #040078;
+ }
+
+ .boton-decoracion:hover{
+    background-color: #040078;
+    border: solid 1px #EAE7E2;
+    color: #EAE7E2;
+
+ }
+/*header nav{
+    background-color: #EAE7E2;
+    height: 80px;
+    display: flex;
+    color: #040078;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+}
+    
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 60px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #040078;
+}
+*/
+
+.logo-nav{
+    width: 80%;
+}
+.navbar-brand{
+    width: 10%;
+}
+/*.hero {
+    text-align: center;
+    color: #040078;
+    width: 100%;
+    height: 600px;
+
+    background-image: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+} 
+
+.titulo-hero{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+
+
+.hero ul {
+    padding-top: 40px;
+    line-height: 60px;
+    color: #EAE7E2;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+.hero h4 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+*/
+.w-100{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.color-carrusel {
+    color: #040078;
+    
+}
+
+body{
+    background-color: #EAE7E2;
+    font-family: "Josefin Sans", serif ;
+    font-weight: 500;
+}
+.grid-contenedor{
+    margin: 50px ;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    gap: 10px;
+
+}
+
+
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+    
+    
+}
+
+
+.item-2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px ;
+    padding: 20px;
+    text-align: center;
+    color: #040078;
+
+}
+
+.item-2 h3{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.item-2 .boton-item2 {    
+    margin-top: 100px;
+    padding: 20px;
+    width: 30%;
+    
+}
+
+main .titulo-packs{
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: #040078;
+}
+
+.packs{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.pack-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    color: #040078;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px #040078;
+
+}
+
+.boton-packs{
+    padding: 10px;
+}
+.packs div img {
+    width: 300px;
+    height: 300px;
+}
+
+footer a img {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media  screen and (max-width: 995px){
+    .packs div img {
+        width: 200px;
+        height: 200px;  
+    }
+    
+}
+
+@media  screen and (max-width: 520px){
+    .hero {
+
+        height: 300px;
+     } 
+    
+    .titulo-hero{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .hero ul {
+        padding-top: 20px;
+        line-height: 20px;
+          
+    } 
+    .hero h4 {
+        font-size: 20px;
+        margin-top: 80px;
+ 
+   }
+   .grid-contenedor{
+    
+    margin: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px 150px 150px;
+    
+
+}
+
+
+.grid-item{
+    grid-column: span 1;
+    grid-row: span 1;
+
+}
+
+.item-2{
+    font-size: 15px;
+}
+
+}
+
+
+
+
+
+/*-----------------------CONTACTO ----------------------- */
+
+
+
+
+
+/*-----------------------NOSOTROS ----------------------- */
+
+/*-----------------------PRODUCTOS ----------------------- */
+
+/*-----------------------SERVICIOS ----------------------- */
